@@ -62,8 +62,8 @@ def Cargar_data():
  try:
     conn =psycopg2.connect( host="data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" ,
                            dbname="data-engineer-database",
-                           user= "jcapuzzi_coderhouse",
-                           password= "70IqX2H1Aa",
+                           user= ,
+                           password= ,
                            port="5439"
                           )
     print("me conecte")
